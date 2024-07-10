@@ -1,0 +1,44 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%; /* Adjusts the default font size */
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Sets a default font family */
+    line-height: 1.6; /* Improves readability */
+    color: #333; /* Sets a default text color */
+    background-color: #fff; /* Sets a default background color */
+  }
+
+.icon {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav > li > a {
+  margin: 5px;
+  padding: 5px 8px;
+}
+
+.hero {
+  background-image: url("images/background\ hp.webp");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
